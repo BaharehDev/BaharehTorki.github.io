@@ -6,32 +6,17 @@
     margin-right: 10px;
 }
 
-.username {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18;
-}
-p{
-    text-align: center;
-    color: purple;
-    font-family: Calibri;
-}
-
-h{
-    text-align: center;
-    color: purple;
-    font-family: Calibri;
-}
-
 label{
+    padding-left: 15cm;
     font-size: 25;
-    text-align: center;
     color: purple;
     font-family: Calibri;
 
 }
 
+/*it isn't performed*/
 input[type="textfield"] {
+    padding-left: 15cm;
     text-align: center;
     background-color: rgb(156, 66, 66);
     color: rgb(178, 105, 105) 2px;
@@ -41,17 +26,11 @@ input[type="textfield"] {
 }
 
 a:link{
-    color: darkgrey;
-    text-decoration: dimgray;
+    color: black;
 }
+
 a:hover{
-    color: cornflowerblue;
-}
-nav{
-    padding-left: 200px;
-    width: 100vw;
-    background-color: darkgrey;
-    text-align: center;
+    color: #093660;
 }
 
 body{
@@ -59,21 +38,32 @@ body{
     margin: 0;
 }
 
+/*it isn't performed*/
 li a{
     text-decoration: none;
     color: cyan;
     padding: 20px 20px;
 }
+
+/*it isn't performed*/
 li:hover{
     background-color: papayawhip;
     color: darkgrey;
 }
-.myWork li{
+
+/*it isn't performed*/
+ul.myWork{
     text-decoration: none;
     color: cyan;
     padding: 20px 20px;
 }
+
+/*it isn't performed*/
 #name{
     text-align: center;
     color: coral;
+}
+p{
+    text-align: center;
+    color: #purple;
 }
