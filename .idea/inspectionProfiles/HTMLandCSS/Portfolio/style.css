@@ -1,69 +1,93 @@
-.img {
-    padding-left: 200px;
-    width: 100px;
-    border-radius: 50px;
+
+body{
+    background-color: #525252;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: "Calibri Light";
+    font-size: 16px;
+}
+/*it isn't performed*/
+
+myWork.class{
+    text-decoration: none;
+    color: cyan;
+    padding: 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    background-color: darkgray;
+    text-align: center;
+}
+
+
+li {
+    display: inline;
+    font-size: 1.5em;
+    font-family: Calibri;
+    padding: 20px 20px;
+    line-height: 55px;
+}
+li:hover{
+    color: white;
+}
+
+#name{
+    text-align: center;
+    color: #040000;
+    font-family: "Calibri Light";
+    color: white;
+}
+
+img {
+    padding: 5px 5px 5px 5px;
+    width: 70px;
+    margin: 10px;
+    background-color: #b7b7b7;
+    border-radius: 10%;
     float: left;
-    margin-right: 10px;
+    width: 100px;
 }
 
 label{
-    padding-left: 15cm;
+    padding-left: 1cm;
     font-size: 25;
-    color: purple;
+    color: #ffffff;
     font-family: Calibri;
 
 }
 
-/*it isn't performed*/
-input[type="textfield"] {
-    padding-left: 15cm;
-    text-align: center;
-    background-color: rgb(156, 66, 66);
-    color: rgb(178, 105, 105) 2px;
-    border: solid;
-    margin: 1px;
-    width: 28%;
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    border-bottom: 2px solid #6d5c00;
+    background-color: #d8d8d8;
+    color: #474747;
 }
 
 a:link{
-    color: black;
+    color: white;
+    alignment: center;
+    padding-left: 20px;
+    padding: inherit;
+    left: 20px;
 }
 
 a:hover{
-    color: #093660;
+    color: #ffffff;
 }
 
-body{
-    background-color: darkgrey ;
-    margin: 0;
-}
-
-/*it isn't performed*/
 li a{
     text-decoration: none;
-    color: cyan;
+    color: #000000;
     padding: 20px 20px;
-}
-
-/*it isn't performed*/
-li:hover{
-    background-color: papayawhip;
-    color: darkgrey;
-}
-
-/*it isn't performed*/
-ul.myWork{
-    text-decoration: none;
-    color: cyan;
-    padding: 20px 20px;
-}
-
-/*it isn't performed*/
-#name{
-    text-align: center;
-    color: coral;
-}
-p{
-    text-align: center;
-    color: #purple;
 }
