@@ -1,5 +1,5 @@
 
-body{
+body {
     background-color: #626262;
 }
 
@@ -7,19 +7,20 @@ div {
     background-image: url("images/1000_F_199934209_BtlK97LsZW4Z5OdGfgp8fWAjstqdzC70.jpg");
 }
 
-p{
+p {
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
     color: #010000;
     font-family: "Calibri Light";
     font-size: 20px;
 }
 
-.contact{
+.contact {
     text-align: left;
     padding-left: 150px;
 
 }
+
 ul {
     list-style-type: none;
     padding: 20px;
@@ -29,11 +30,12 @@ ul {
 }
 
 
-#name{
+#name {
     text-align: center;
+    padding-top: 30px;
     color: #040000;
     font-family: "Calibri Light";
-    color: #883434;
+    color: #ffffff;
 }
 
 img {
@@ -53,13 +55,15 @@ img {
     float: left;
     width: 100px;
 }
-label{
+
+label {
     padding-left: 1cm;
     font-size: 16px;
     color: #ffffff;
     font-family: Calibri;
 
 }
+
 input {
     width: 20%;
     padding: 12px 20px;
@@ -71,18 +75,17 @@ input {
     color: #893434;
 }
 
-a:link{
+a:link {
     color: white;
-    alignment: center;
     padding: 20px 10px;
     left: 20px;
 }
 
-a:hover{
+a:hover {
     color: #ffffff;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: #000000;
     padding: 20px 20px;
@@ -95,22 +98,30 @@ li {
     font-family: Calibri;
     padding: 10px 20px;
     line-height: 55px;
-    background-color: #a66262;
+    background-color: #b46565;
 }
-li:hover{
+
+li:hover {
     color: white;
 }
 
-iframe{
+iframe {
     padding-bottom: 20px;
     padding-top: 70px;
-    width:30%;
+    width: 30%;
 }
- .navigation{
-     background-color: #893434;
-     list-style-type: none;
-     margin: 10px;
-     padding: 20px;
-     overflow: hidden;
 
- }
+.navigation {
+    background-color: #893434;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.box{
+    background-color: yellowgreen;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+}
+
