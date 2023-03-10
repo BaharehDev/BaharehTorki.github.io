@@ -118,10 +118,14 @@ iframe {
     padding: 20px;
     overflow: hidden;
 }
-.box{
-    background-color: yellowgreen;
-    border: 1px solid blue;
+/*.box{
+    background-color: #d8d8d8;
+    border: 13px solid blue;
     min-height: 50px;
     font-size: 2rem;
-}
+}*/
 
+.work{
+    width: 30%;
+    border-image: 2px;
+}
