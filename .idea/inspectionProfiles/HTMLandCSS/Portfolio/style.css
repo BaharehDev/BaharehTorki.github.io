@@ -9,9 +9,10 @@ div {
 
 p{
     text-align: center;
-    color: white;
+    padding: 20px 20px 20px 20px;
+    color: #010000;
     font-family: "Calibri Light";
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .contact{
@@ -32,7 +33,7 @@ ul {
     text-align: center;
     color: #040000;
     font-family: "Calibri Light";
-    color: white;
+    color: #883434;
 }
 
 img {
@@ -54,19 +55,18 @@ img {
 }
 label{
     padding-left: 1cm;
-    font-size: 25;
+    font-size: 16px;
     color: #ffffff;
     font-family: Calibri;
 
 }
 input {
-    width: 30%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 5px solid #893434;
+    border: 2px solid #b87b7b;
     border-radius: 4px;
-    border-bottom: 3px solid #b97b7b;
     background-color: #d8d8d8;
     color: #893434;
 }
@@ -79,7 +79,7 @@ a:link{
 }
 
 a:hover{
-    color: #d2bbbb;
+    color: #ffffff;
 }
 
 li a{
@@ -95,22 +95,22 @@ li {
     font-family: Calibri;
     padding: 10px 20px;
     line-height: 55px;
-    background-color: #893434;
+    background-color: #a66262;
 }
 li:hover{
     color: white;
 }
 
-ul {
-    background-color: #893434;
-    list-style-type: none;
-    margin: 100px;
-    padding: 20px;
-    overflow: hidden;
-    background-color: #555555;
-}
 iframe{
     padding-bottom: 20px;
     padding-top: 70px;
     width:30%;
 }
+ .navigation{
+     background-color: #893434;
+     list-style-type: none;
+     margin: 10px;
+     padding: 20px;
+     overflow: hidden;
+
+ }
