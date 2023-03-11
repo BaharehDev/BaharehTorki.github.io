@@ -3,10 +3,6 @@ body {
     background-color: #626262;
 }
 
-div {
-    background-image: url("images/1000_F_199934209_BtlK97LsZW4Z5OdGfgp8fWAjstqdzC70.jpg");
-}
-
 p {
     text-align: center;
     padding: 10px 10px 10px 10px;
@@ -126,6 +122,17 @@ iframe {
 }*/
 
 .work{
-    width: 30%;
+    width: 10%;
     border-image: 2px;
+}
+
+.container3{
+    background-color: white;
+    width: 20%;
+}
+.carousel-slide{
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
+
+    width: 40%;
 }

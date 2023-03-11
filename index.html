@@ -24,7 +24,7 @@
 </div>
 
 
-<nav>
+<nav class="nav-">
     <ul>
         <li class="navigation"><a href="index.html">Home</a></li>
         <li class="navigation"><a href="contact.html">Contact me</a></li>
@@ -32,6 +32,26 @@
     </ul>
 </nav>
 
+<div class="container3"></div>
+<button class="btn btn-secondary outline" data-bs-toggle="modal"
+        data-bs-target="#modal">Search</button>
+
+<div class="modal fade" id="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">Search</div>
+    </div>
+</div>
+
+
+<script>
+    const form = document.querySelector("form")
+    form.addEventListener('submit', e => {
+        if (!form.checkValidity()) {
+            e.preventDefault()
+        }
+        form.classList.add('was-validated')
+    })
+</script>
 <h2 id="name">Bahareh Torki</h2>
 <p>Java developer and graphic designer</p>
 <hr>
@@ -42,5 +62,10 @@
     My goal is to develop my knowledge in programming, learn new skills and experience new challenges</p>
 
 <hr>
+
 </body>
+<footer>
+    <p>Author: Bahareh Torki</p>
+    <p><a href="mailto:bahareh.torki@yh.nackademin.se">bahareh.torki@yh.nackademin.se</a></p>
+</footer>
 </html>
