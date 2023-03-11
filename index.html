@@ -12,29 +12,22 @@
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
+
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col"><div class="box"></div>
-        </div>
-    </div>
-
-</div>
-
-
-<nav class="nav-">
-    <ul>
-        <li class="navigation"><a href="index.html">Home</a></li>
-        <li class="navigation"><a href="contact.html">Contact me</a></li>
-        <li class="navigation"><a href="myWork.html">My work</a></li>
-    </ul>
-</nav>
+<div id="header"></div>
 
 <div class="container3"></div>
 <button class="btn btn-secondary outline" data-bs-toggle="modal"
-        data-bs-target="#modal">Search</button>
+        data-bs-target="#modal">Search
+</button>
 
 <div class="modal fade" id="modal">
     <div class="modal-dialog">
@@ -62,10 +55,7 @@
     My goal is to develop my knowledge in programming, learn new skills and experience new challenges</p>
 
 <hr>
-
+<div id="footer"></div>
 </body>
-<footer>
-    <p>Author: Bahareh Torki</p>
-    <p><a href="mailto:bahareh.torki@yh.nackademin.se">bahareh.torki@yh.nackademin.se</a></p>
-</footer>
+
 </html>

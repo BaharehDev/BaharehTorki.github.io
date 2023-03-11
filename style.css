@@ -114,6 +114,7 @@ iframe {
     padding: 20px;
     overflow: hidden;
 }
+
 /*.box{
     background-color: #d8d8d8;
     border: 13px solid blue;
@@ -121,18 +122,32 @@ iframe {
     font-size: 2rem;
 }*/
 
-.work{
+.work {
     width: 10%;
     border-image: 2px;
 }
 
-.container3{
+.container3 {
     background-color: white;
     width: 20%;
 }
-.carousel-slide{
+
+.carousel-slide {
     padding: 5px 5px 5px 5px;
     margin: 10px;
 
     width: 40%;
 }
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #883434;
+    color: white;
+    text-align: center;
+}
+
+
