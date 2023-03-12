@@ -37,10 +37,11 @@ ul {
 img {
     padding: 5px 5px 5px 5px;
     margin: 10px;
+    border: 30%;
     background-color: #b7b7b7;
     border-radius: 10%;
     float: left;
-    width: 30px;
+    width: 4%;
 }
 
 .myImg {
@@ -150,4 +151,20 @@ footer {
     text-align: center;
 }
 
-
+h3 {
+    position: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: bold;
+}
+h4 {
+    position: center;
+    display: block;
+    font-size: 1.5em;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: bold;
+}
