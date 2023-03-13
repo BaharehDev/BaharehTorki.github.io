@@ -182,17 +182,15 @@ h4 {
 
 }
 .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
-    height: 20cm;
-
+    height: auto;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 2px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 0px 0 rgba(0,0,0,5);
 }
 
 /* Add some padding inside the card container */
@@ -202,13 +200,15 @@ h4 {
 
 .card-text{
     font-size: 16px;
+    float: left;
 }
 
 .card-img-top{
-    padding: 5px 5px 5px 5px;
+    padding: 0.50% 0.50% 0.50% 0.50%;
     margin: 10px;
     background-color: #b7b7b7;
-    border-radius: 10%;
+    border-radius: 5%;
     float: left;
-    width: 60%;
+    width: 40%;
 }
+#more {display: none;}
