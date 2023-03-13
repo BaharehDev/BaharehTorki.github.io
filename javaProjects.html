@@ -10,56 +10,67 @@
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-</body>
 
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
 <body>
 
-<div class="row">
-    <div class="col-sm-4">
-        <div class="card">
-            <div class="card-body">
-                <img class="card-img-top" class="img-fluid" allt="test" src="images/quizKampen.png">
-                <h5 class="card-title">Quiz kampen</h5>
-                <p class="card-text">Spelet går ut på att man tävlar, två och två per spel, om att svara rätt på
-                    quiz-frågor.
-                    Frågorna har olika kategorier och man turas om att välja vilken kategori man ska få frågor
-                    ifrån. Under en omgång får man frågor från en vald kategori, efter varje omgång summeras
-                    poängställningen. Man spelar ett visst antal omgångar innan den totala poängen räknas.
-                    Den spelare som har flest poäng när spelet är slut har vunnit.</p>
-                <a href="https://github.com/BaharehTorki/Quizkampen" class="btn btn-secondary outline">GitHub's link</a>
+<div id="header"></div>
+<form action="/action_page.php"></form>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" alt="test" src="images/quizKampen.png">
+                    <h5 class="card-title">Quiz kampen</h5>
+                    <p class="card-text">Spelet går ut på att man tävlar, två och två per spel, om att svara rätt på
+                        quiz-frågor.
+                        Frågorna har olika kategorier och man turas om att välja vilken kategori man ska få frågor
+                        ifrån. Under en omgång får man frågor från en vald kategori, efter varje omgång summeras
+                        poängställningen. Man spelar ett visst antal omgångar innan den totala poängen räknas.
+                        Den spelare som har flest poäng när spelet är slut har vunnit.</p>
+                    <a href="https://github.com/BaharehTorki/Quizkampen" class="btn btn-secondary outline">GitHub's
+                        link</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="card">
-            <div class="card-body">
-                <img class="card-img-top" class="img-fluid" allt="test" src="images/femtonSpel.png">
-                <h5 class="card-title">Femton spel</h5>
-                <p class="card-text">
-                    Ett 15-spel är ett spel med 15 brickor fördelade på 4 rader och 4 kolumner. En
-                    plats är alltid ledig.
-                    Spelet går ut på att brickorna blandas, och sedan sorteras i rätt nummerordning genom att de dras,
-                    en i taget, in till den tomma platsen (som kommer att hamna på ett nytt ställe) och på så sätt
-                    flyttas runt.</p>
-                <a href="https://github.com/BaharehTorki/FiftheenGame" class="btn btn-secondary outline">GitHub's
-                    link</a>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" alt="test" src="images/femtonSpel.png">
+                    <h5 class="card-title">Femton spel</h5>
+                    <p class="card-text">
+                        Ett 15-spel är ett spel med 15 brickor fördelade på 4 rader och 4 kolumner. En
+                        plats är alltid ledig.
+                        Spelet går ut på att brickorna blandas, och sedan sorteras i rätt nummerordning genom att de
+                        dras,
+                        en i taget, in till den tomma platsen (som kommer att hamna på ett nytt ställe) och på så sätt
+                        flyttas runt.</p>
+                    <a href="https://github.com/BaharehTorki/FiftheenGame" class="btn btn-secondary outline">GitHub's
+                        link</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="col-sm-4">
-        <div class="card">
-            <div class="card-body">
-                <img class="card-img-top" class="img-fluid" allt="test" src="images/BestGym.png">
-                <h5 class="card-title">Best gym ever</h5>
-                <body>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" alt="test" src="images/BestGym.png">
+                    <h5 class="card-title">Best gym ever</h5>
 
-                <p class="card-text">Gymet ”Best Gym Ever” har problem med sin datasystem.
-                    Konsulten som byggde systemet är bortrest och kan inte komma och laga systemet på flera veckor.
-                    Dessutom har någon postat på nätet att Best Gym Evers system är sönder och att alla kan komma dit
-                    och träna gratis, vilket har gjort att en hel del skumma typer har dykt upp.<span
-                            id="dots">...</span><span id="more">Det finns en fil från hårddisken med alla kunders namn,personnummer och när de senast betalade
+
+                    <p class="card-text">Gymet ”Best Gym Ever” har problem med sin datasystem.
+                        Konsulten som byggde systemet är bortrest och kan inte komma och laga systemet på flera veckor.
+                        Dessutom har någon postat på nätet att Best Gym Evers system är sönder och att alla kan komma
+                        dit
+                        och träna gratis, vilket har gjort att en hel del skumma typer har dykt upp.<span
+                                id="dots">...</span><span id="more">Det finns en fil från hårddisken med alla kunders namn,personnummer och när de senast betalade
                     årsavgiften till gymmet. Hen undrar om du kan
                     skriva ett program där man skriver in en kunds personnummer eller namn när personen dyker upp
                     på gymet, sen söker programmet i filen och visar upp om kunden är en nuvarande medlem, en kund (om
@@ -72,83 +83,90 @@
                     behöver veta namn, personnummer och datum när kunden var på gymmet (så detta ska alltså sparas
                     i hens fil).</span></p>
 
-                <script>
-                    function myFunction() {
-                        var dots = document.getElementById("dots");
-                        var moreText = document.getElementById("more");
-                        var btnText = document.getElementById("myBtn");
+                    <script>
+                        function myFunction() {
+                            var dots = document.getElementById("dots");
+                            var moreText = document.getElementById("more");
+                            var btnText = document.getElementById("myBtn");
 
-                        if (dots.style.display === "none") {
-                            dots.style.display = "inline";
-                            btnText.innerHTML = "Read more";
-                            moreText.style.display = "none";
-                        } else {
-                            dots.style.display = "none";
-                            btnText.innerHTML = "Read less";
-                            moreText.style.display = "inline";
+                            if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "Read more";
+                                moreText.style.display = "none";
+                            } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "Read less";
+                                moreText.style.display = "inline";
+                            }
                         }
-                    }
-                </script>
+                    </script>
 
-                </body>
-
-                <a href="https://github.com/BaharehTorki/BestGymEver" class="btn btn-secondary outline">GitHub's
-                    link</a>
-                <button onclick="myFunction()" id="myBtn">Read more</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-4">
-        <div class="card">
-            <div class="card-body">
-                <img class="card-img-top" class="img-fluid" allt="test" src="images/Aoc2020.png">
-                <h5 class="card-title">Advent of code</h5>
-
-                <p class="card-text">
-                    Advent of Code is an annual set of Christmas-themed computer programming challenges that follow an
-                    Advent calendar.[1][2] It has been running since 2015.[3]
-                    The programming puzzles cover a variety of skill sets and skill levels and can be solved using any
-                    programming language. Participants also compete based on speed on both global and private
-                    leaderboards.[1]
-                    The event was founded and is maintained by software engineer Eric Wastl.
-                    vi ska jobba med tre steg frivillig först gör den själv och sedan gör med inspiration av andras kod
-                    på internet
-                </p>
-                <a href="https://github.com/BaharehTorki/Greenest" class="btn btn-secondary outline">GitHub's link</a>
+                    <a href="https://github.com/BaharehTorki/BestGymEver" class="btn btn-secondary outline">GitHub's
+                        link</a>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" alt="test" src="images/Aoc2020.png">
+                    <h5 class="card-title">Advent of code</h5>
 
-    <div class="col-sm-4">
-        <div class="card">
-            <div class="card-body">
-                <img class="card-img-top" class="img-fluid" allt="test" src="images/greennest.png">
+                    <p class="card-text">
+                        Advent of Code is an annual set of Christmas-themed computer programming challenges that follow
+                        an
+                        Advent calendar.[1][2] It has been running since 2015.[3]
+                        The programming puzzles cover a variety of skill sets and skill levels and can be solved using
+                        any
+                        programming language. Participants also compete based on speed on both global and private
+                        leaderboards.[1]
+                        The event was founded and is maintained by software engineer Eric Wastl.
+                        vi ska jobba med tre steg frivillig först gör den själv och sedan gör med inspiration av andras
+                        kod
+                        på internet
+                    </p>
+                    <a href="https://github.com/BaharehTorki/Greenest" class="btn btn-secondary outline">GitHub's
+                        link</a>
+                </div>
+            </div>
+        </div>
 
-                <h5 class="card-title">Greennest</h5>
-                <p class="card-text"> Ett hotell är specialiserat på 3 typer av växter:
-                    • Palmer: En palm behöver 0,5 liter kranvatten per dag * sin längd i meter. En palm som är 3 meter
-                    hög behöver alltså 0,5 * 3 = 1,5 liter vatten/dag.
-                    • Köttätande växter: Dessa behöver alltid en basnivå av 0,1 liter proteindryck per dag och
-                    sedan ett extra tillskott med 0,2 liter proteindryck * sin längd i meter. En köttätande växt som är
-                    50 cm hög behöver alltså 0,1 + (0,2*0,5) = 0,2 liter proteindryck/dag.
-                    • Kaktusar: Varje kaktus ska ha 2 cl mineralvatten/dag, oberoende av kaktusens storlek. Eftersom
-                    formlerna är så krångliga, har hotellets ägare svårt att minnas hur mycket vätska varje
-                    växt behöver och ber er om hjälp att skriva ett litet program som hjälper till att hålla reda på hur
-                    mycket varje växt ska ha.
-                    Dessa växter bor på hotellet:
-                    • Kaktusen Igge, 20 cm hög
-                    • Palmen Laura, 5 meter hög
-                    • Köttätande växten Meatloaf, 0,7 meter hög
-                    • Palmen Putte, 1 meter hög</p>
-                <a href="https://github.com/BaharehTorki/Greenest" class="btn btn-secondary outline">GitHub's link</a>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" alt="test" src="images/greennest.png">
+
+                    <h5 class="card-title">Greennest</h5>
+                    <p class="card-text"> Ett hotell är specialiserat på 3 typer av växter:
+                        • Palmer: En palm behöver 0,5 liter kranvatten per dag * sin längd i meter. En palm som är 3
+                        meter
+                        hög behöver alltså 0,5 * 3 = 1,5 liter vatten/dag.
+                        • Köttätande växter: Dessa behöver alltid en basnivå av 0,1 liter proteindryck per dag och
+                        sedan ett extra tillskott med 0,2 liter proteindryck * sin längd i meter. En köttätande växt som
+                        är
+                        50 cm hög behöver alltså 0,1 + (0,2*0,5) = 0,2 liter proteindryck/dag.
+                        • Kaktusar: Varje kaktus ska ha 2 cl mineralvatten/dag, oberoende av kaktusens storlek. Eftersom
+                        formlerna är så krångliga, har hotellets ägare svårt att minnas hur mycket vätska varje
+                        växt behöver och ber er om hjälp att skriva ett litet program som hjälper till att hålla reda på
+                        hur
+                        mycket varje växt ska ha.
+                        Dessa växter bor på hotellet:
+                        • Kaktusen Igge, 20 cm hög
+                        • Palmen Laura, 5 meter hög
+                        • Köttätande växten Meatloaf, 0,7 meter hög
+                        • Palmen Putte, 1 meter hög</p>
+                    <a href="https://github.com/BaharehTorki/Greenest" class="btn btn-secondary outline">GitHub's
+                        link</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="footer"></div>
 </body>
 
 </html>
