@@ -4,6 +4,8 @@ body {
 }
 
 p {
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     padding: 10px 10px 10px 10px;
     color: #010000;
@@ -34,25 +36,32 @@ ul {
     color: #ffffff;
 }
 
+.myLogo{
+    padding: 0% 0% 0% 0%;
+    margin: 0.5% 1% 1% 1%;
+    width: 7%;
+}
+
 img {
-    padding: 5px 5px 5px 5px;
-    margin: 10px;
-    border: 30%;
+    margin-left: 2%;
+    border: 5%;
+    border-left: 20% ;
     background-color: #b7b7b7;
     border-radius: 10%;
     float: left;
-    width: 4%;
+    width: 3%;
 }
 
 .myImg {
     padding: 5px 5px 5px 5px;
-    margin: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
     background-color: #b7b7b7;
     border-radius: 10%;
     float: left;
     width: 100px;
+    width: 8%;
 }
-
 label {
     padding-left: 1cm;
     font-size: 16px;
@@ -103,9 +112,9 @@ li:hover {
 }
 
 iframe {
-    padding-bottom: 20px;
-    padding-top: 70px;
-    width: 30%;
+    margin-top: 10%;
+    margin-block: 10%;
+    width: 40%;
 }
 
 .navigation {
@@ -116,15 +125,9 @@ iframe {
     overflow: hidden;
 }
 
-/*.box{
-    background-color: #d8d8d8;
-    border: 13px solid blue;
-    min-height: 50px;
-    font-size: 2rem;
-}*/
-
 .work {
-    width: 10%;
+    alignment: bottom;
+    width: 15%;
     border-image: 2px;
 }
 
@@ -149,23 +152,12 @@ footer {
     text-align: center;
 }
 
-h3 {
-    position: center;
-    display: block;
-    font-size: 2em;
-    margin-top: 10%;
-    margin-left: 40%;
-    margin-right: 40%;
-    font-weight: bold;
-}
-
-h4 {
-    position: center;
-    display: block;
-    font-size: 1.5em;
-    margin-left: 40%;
-    margin-right: 40%;
-    font-weight: bold;
+h3, h4 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    color: #010000;
+    font-family: "Calibri Light";
+    font-size: 20px;
 }
 
 .row{
@@ -187,8 +179,9 @@ h4 {
     padding-right: 2%;
     padding-bottom: 2%;
     background-color: #bc7e7e;
-    border: 10%;
+    border: 20%;
     margin-left: 2%;
+    margin-right: 2%;
     margin-right: 2%;
     color: white;
     box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
@@ -221,3 +214,4 @@ h4 {
     width: 40%;
 }
 #more {display: none;}
+
