@@ -215,3 +215,11 @@ h3, h4 {
 }
 #more {display: none;}
 
+.d-block w-100{
+    width: 50%;
+    position: center;
+}
+
+.active{
+    width: 20%;
+}
