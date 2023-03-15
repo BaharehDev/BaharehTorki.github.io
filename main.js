@@ -8,7 +8,7 @@ console.log("el :")
 element.forEach(e => {
     if (e.id.charAt(1) === '3') {
         console.log("hummm this is 3")
-        e.style.color= "red";
+        e.style.color = "red";
     }
     console.log(e.id)
 });
@@ -26,5 +26,13 @@ function myFunction() {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
         moreText.style.display = "inline";
+    }
+
+    img = document.getElementById("img1");
+
+    // Function to increase image size
+    function enlargeImg() {
+        img.style.transform = "scale(1.5)";
+        img.style.transition = "transform 0.25s ease";
     }
 }
