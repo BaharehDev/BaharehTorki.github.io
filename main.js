@@ -36,3 +36,12 @@ function myFunction() {
         img.style.transition = "transform 0.25s ease";
     }
 }
+
+
+/*
+    const showImageButton = document.getElementById("show-image-button");
+    const myImage = document.getElementById("my-image");
+    showImageButton.addEventListener("click", () => {
+    myImage.style.display = "block";
+});
+*/
