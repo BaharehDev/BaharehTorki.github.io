@@ -80,12 +80,14 @@ input {
     border-radius: 4px;
     background-color: #d8d8d8;
     color: #893434;
+
 }
 
 a:link {
     color: white;
     padding: 20px 10px;
     left: 20px;
+
 }
 
 a:hover {
@@ -166,12 +168,13 @@ h3, h4 {
     padding-top: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
-    background-color: #d8c7c7;
+    background-color: #c0c0c0;
     border: 10%;
     margin-left: 2%;
     margin-right: 2%;
     color: white;
     height: auto;
+    border-radius: 2%;
 }
 
 .card {
@@ -179,7 +182,7 @@ h3, h4 {
     padding-top: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
-    background-color: #bc7e7e;
+    background-color: #a2a2a2;
     border: 20%;
     margin-left: 2%;
     margin-right: 2%;
@@ -193,7 +196,7 @@ h3, h4 {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 5px 0px 0 rgba(0, 0, 0, 5);
+    box-shadow: 8px 0px 0 rgb(135, 52, 52);
 }
 
 /* Add some padding inside the card container */
@@ -204,7 +207,7 @@ h3, h4 {
 .card-img-top {
     padding: 0.50% 0.50% 0.50% 0.50%;
     margin: 10px;
-    background-color: #b7b7b7;
+    background-color: #2b2b2b;
     border-radius: 5%;
     float: left;
     width: 40%;
@@ -228,21 +231,26 @@ h3, h4 {
     text-align: center;
 }
 
-.card_pic {
-
-}
-
 .card_text {
     text-align: left;
     margin: 0% 0% 0% 0%;
-    background-color: #bb7d7d;
+    background-color: #a3a3a3;
     height: 250px;
     overflow: auto;
+    border-left: 20px;
+    border-right: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
 }
 
 .card_button {
-    margin: 10% 10% 10% 10%;
-    padding: 10% 10% 10% 10% ;
+    border-top: 20%;
+    border-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
 
 }
 
@@ -251,7 +259,8 @@ h3, h4 {
 }
 
 .card {
-    height: 600px;
+    border-radius: 2%;
+    height: 700px;
 }
 
 tr {
@@ -275,4 +284,14 @@ tr {
 ::-webkit-scrollbar-thumb {
     background: #e5e5e5;
     border-radius: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #883434;
+    color: white;
+    text-align: center;
 }
