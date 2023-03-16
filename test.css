@@ -60,14 +60,6 @@ img {
     width: 3%;
 }
 
-footer {
-    left: 0;
-    width: 100%;
-    background-color: #883434;
-    color: white;
-    text-align: center;
-}
-
 /*  Classes */
 .contact {
     text-align: left;
