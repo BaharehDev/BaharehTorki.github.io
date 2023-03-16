@@ -1,124 +1,83 @@
-
+/* Tags */
 body {
     background-color: #626262;
+    text-align: center;
+    font-family: Calibri;
+}
+
+h2{
+    color: #ffffff;
 }
 
 p {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+    font-size: 20px;
     color: #010000;
     font-family: "Calibri Light";
-    font-size: 20px;
-}
-
-.contact {
-    text-align: left;
-    padding-left: 150px;
-
 }
 
 ul {
     list-style-type: none;
-    padding: 20px;
-    margin: 0;
+    padding: 40px;
     background-color: #883434;
-    text-align: center;
-}
-
-
-#name {
-    text-align: center;
-    padding-top: 30px;
-    color: #040000;
-    font-family: "Calibri Light";
-    color: #ffffff;
-}
-
-.myLogo {
-    padding: 0% 0% 0% 0%;
-    margin: 0.5% 1% 1% 1%;
-    width: 7%;
-}
-
-img {
-    margin-left: 2%;
-    border: 5%;
-    border-left: 20%;
-    background-color: #b7b7b7;
-    border-radius: 10%;
-    float: left;
-    width: 3%;
-}
-
-.myImg {
-    padding: 5px 5px 5px 5px;
-    margin-left: 10%;
-    margin-right: 5%;
-    background-color: #b7b7b7;
-    border-radius: 10%;
-    float: left;
-    width: 100px;
-    width: 8%;
-}
-
-label {
-    padding-left: 1cm;
-    font-size: 16px;
-    color: #ffffff;
-    font-family: Calibri;
-
-}
-
-input {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #b87b7b;
-    border-radius: 4px;
-    background-color: #d8d8d8;
-    color: #893434;
-
-}
-
-a:link {
-    color: white;
-    padding: 20px 10px;
-    left: 20px;
-
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-li a {
-    text-decoration: none;
-    color: #000000;
-    padding: 20px 20px;
-
 }
 
 li {
     display: inline;
     font-size: 1.5em;
-    font-family: Calibri;
-    padding: 10px 20px;
-    line-height: 55px;
-    background-color: #b46565;
 }
 
-li:hover {
+a {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 20px;
+}
+
+a:hover {
     color: white;
 }
 
 iframe {
-    margin-top: 10%;
-    margin-block: 10%;
-    width: 40%;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 0;
+    right: 0;
 }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #883434;
+    color: white;
+    text-align: center;
+}
+
+img {
+    /*margin-left: 2%;*/
+    border: 5%;
+    /*border-left: 20%;*/
+    border-radius: 10%;
+    /*float: left;*/
+    width: 3%;
+}
+
+footer {
+    left: 0;
+    width: 100%;
+    background-color: #883434;
+    color: white;
+    text-align: center;
+}
+
+/*  Classes */
+.contact {
+    text-align: left;
+    padding-left: 150px;
+}
+
+
 
 .navigation {
     background-color: #893434;
@@ -143,24 +102,6 @@ iframe {
     padding: 5px 5px 5px 5px;
     margin: 10px;
     width: 40%;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #883434;
-    color: white;
-    text-align: center;
-}
-
-h3, h4 {
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    color: #010000;
-    font-family: "Calibri Light";
-    font-size: 20px;
 }
 
 .row {
@@ -195,13 +136,10 @@ h3, h4 {
 }
 
 /* On mouse-over, add a deeper shadow */
+
+
 .card:hover {
     box-shadow: 8px 0px 0 rgb(135, 52, 52);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 8px;
 }
 
 .card-img-top {
@@ -211,10 +149,6 @@ h3, h4 {
     border-radius: 5%;
     float: left;
     width: 40%;
-}
-
-#more {
-    display: none;
 }
 
 .d-block w-100 {
@@ -250,8 +184,9 @@ h3, h4 {
     margin-right: 20%;
     margin-top: 20%;
     margin-bottom: 20%;
+}
 
-
+.card_pic {
 }
 
 .s_box {
@@ -261,37 +196,36 @@ h3, h4 {
 .card {
     border-radius: 2%;
     height: 700px;
+    vertical-align: top;
 }
 
-tr {
-    margin: 10% 10% 10% 10% ;
+.resize:hover {
+    transition: transform 0.25s ease;
+    transform: scale(3);
 }
 
-
-::-webkit-scrollbar-thumb:hover {
-    background: #dadada;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    height: auto;
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #e5e5e5;
-    border-radius: 15px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #883434;
-    color: white;
+/* IDs */
+#contact_me{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 30px;
     text-align: center;
 }
+#about_me{
+    display: inline-block;
+    width: 50%;
+}
+
+#myLogo {
+    position: absolute;
+    left: 5px;
+    margin-top: 2px;
+    width: 5%;
+}
+#myImg {
+    right:10px;
+    border-radius: 10%;
+    width: 8%;
+
+}
+
