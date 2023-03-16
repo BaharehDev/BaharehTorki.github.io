@@ -1,29 +1,11 @@
-
-label {
-    padding-left: 1cm;
-    font-size: 16px;
-    color: #ffffff;
-    font-family: Calibri;
-
+img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
 }
-
-input {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #b87b7b;
-    border-radius: 4px;
-    background-color: #d8d8d8;
-    color: #893434;
+.imgBack {
+    z-index: 0;
 }
-h3, h4 {
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    color: #010000;
-    font-family: "Calibri Light";
-    font-size: 20px;
-}
-#more {
-    display: none;
+.imgFront {
+    z-index: 0;
 }
