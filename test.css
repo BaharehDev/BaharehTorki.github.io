@@ -17,7 +17,7 @@ p {
 
 ul {
     list-style-type: none;
-    padding: 40px;
+    padding: 20px;
     background-color: #883434;
 }
 
@@ -39,9 +39,9 @@ a:hover {
 iframe {
     position: absolute;
     width: 100%;
-    bottom: 30px;
     left: 0;
     right: 0;
+    bottom: 10%;
 }
 
 footer {
@@ -55,11 +55,8 @@ footer {
 }
 
 img {
-    /*margin-left: 2%;*/
-    border: 5%;
-    /*border-left: 20%;*/
+    border: 20%;
     border-radius: 10%;
-    /*float: left;*/
     width: 3%;
 }
 
@@ -127,10 +124,13 @@ footer {
 .card-img-top {
     padding: 0.50% 0.50% 0.50% 0.50%;
     margin: 10px;
-    background-color: #2b2b2b;
-    border-radius: 5%;
     float: left;
     width: 40%;
+    padding: 10px;
+    transition: transform .2s;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .d-block w-100 {
@@ -176,7 +176,7 @@ footer {
 #contact_me{
     position: relative;
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -193,7 +193,27 @@ footer {
 }
 
 #myImg {
-    right:10px;
-    border-radius: 10%;
+    padding-top: 100px;
+    right: 10px;
+    border-radius: 5%;
     width: 8%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: #dadada;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    border-radius: 15px;
 }
