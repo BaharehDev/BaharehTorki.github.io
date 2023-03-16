@@ -64,8 +64,11 @@ img {
     overflow: hidden;
 }
 .work {
+    /*
     height: 20em;
+    */
     width: auto;
+    width: 300px;
 }
 
 .image_size{
@@ -96,7 +99,7 @@ img {
 
 .screenshots {
     width: 35%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
 }
 
@@ -129,6 +132,7 @@ img {
 
 .imgBack {
     z-index: 0;
+    width: 400px;
 }
 
 .imgFront {
