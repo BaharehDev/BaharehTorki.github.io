@@ -3,16 +3,15 @@ body {
     background-color: #626262;
     text-align: center;
     font-family: Calibri;
-}
-
-h2{
     color: #ffffff;
 }
-
+h2, h4{
+    color: #000000;
+}
 p {
     font-size: 20px;
     color: #010000;
-    font-family: "Calibri Light";
+    font-family: "Calibri Light", serif;
 }
 
 ul {
@@ -35,15 +34,10 @@ a {
 a:hover {
     color: white;
 }
-
-iframe {
-    position: absolute;
+iframe{
+    position: initial;
     width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 10%;
 }
-
 footer {
     position: fixed;
     left: 0;
@@ -61,10 +55,6 @@ img {
 }
 
 /*  Classes */
-.contact {
-    text-align: left;
-    padding-left: 150px;
-}
 
 .navigation {
     background-color: #893434;
@@ -73,22 +63,15 @@ img {
     padding: 20px;
     overflow: hidden;
 }
-
 .work {
     alignment: bottom;
-    width: 15%;
+    height: 20em;
+    width: auto;
     border-image: 2px;
 }
 
-.container3 {
-    background-color: white;
-    width: 20%;
-}
-
-.carousel-slide {
-    padding: 5px 5px 5px 5px;
-    margin: 10px;
-    width: 40%;
+.image_size{
+    width: 1000em;
 }
 
 .row {
@@ -108,30 +91,14 @@ img {
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
-
 .card:hover {
     box-shadow: 8px 0px 0 rgb(135, 52, 52);
 }
 
-.card-img-top {
-    padding: 0.50% 0.50% 0.50% 0.50%;
-    margin: 10px;
-    float: left;
-    width: 40%;
+.screenshots {
+    width: 35%;
     padding: 10px;
-    transition: transform .2s;
-    height: auto;
-    margin: 0 auto;
     border-radius: 15px;
-}
-
-.d-block w-100 {
-    width: 50%;
-    position: center;
-}
-
-.active {
-    width: 20%;
 }
 
 .tr_head {
@@ -150,28 +117,25 @@ img {
     overflow: auto;
 }
 
-.tr_button {
-
-}
-
 .s_box {
+    position: relative;
     margin-bottom: 50px;
 }
 
 .resize:hover {
+    position: absolute;
     transition: transform 0.25s ease;
     transform: scale(3);
 }
 
-
 /* IDs */
+
 #contact_me{
     position: relative;
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
 }
-
 #about_me{
     display: inline-block;
     width: 50%;
@@ -189,6 +153,12 @@ img {
     right: 10px;
     border-radius: 5%;
     width: 8%;
+}
+
+#iframe_map {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Scrollbar */
