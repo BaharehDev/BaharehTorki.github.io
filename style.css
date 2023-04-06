@@ -56,11 +56,10 @@ img {
 
 /*  Classes */
 
-.navigation {
-    background-color: #893434;
-    list-style-type: none;
-    margin: 10px;
-    padding: 20px;
+nav{
+    opacity: unset;
+    text-align:center;
+    margin: 10px 0 ;
     overflow: hidden;
 }
 .work {
@@ -149,7 +148,7 @@ img {
 }
 #about_me{
     display: inline-block;
-    width: 50%;
+    width: 70%;
 }
 
 #myImg {
