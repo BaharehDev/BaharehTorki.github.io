@@ -2,13 +2,14 @@
 body {
     background-color: #626262;
     text-align: center;
-    font-family: Calibri;
+    font-family: Calibri light;
     color: #ffffff;
 }
 
-h2, h4{
+h2, h3, h4{
     color: #000000;
     margin-bottom: 0;
+    margin-top: 20px;
 }
 
 p {
@@ -76,7 +77,7 @@ nav{
 }
 
 .row {
-    padding-top: 8%;
+    padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
     margin-left: 2%;
