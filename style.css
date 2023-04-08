@@ -9,8 +9,7 @@ body {
 
 h2, h3, h4 {
     color: #000000;
-    margin-top:20px;
-    margin-bottom: 20px;
+    margin-top:0 20%;
 }
 
 p {
@@ -22,7 +21,6 @@ p {
 ul {
     list-style-type: none;
     background-color: #883434;
-    height: auto;
 }
 
 li {
@@ -62,11 +60,12 @@ img {
 
 /*  Classes */
 
-nav {
+nav{
     opacity: unset;
-    text-align: center;
-    margin: 5px 0;
+    text-align:center;
+    margin: 10px 0 ;
     overflow: hidden;
+    height: auto;
 }
 
 .work {
@@ -78,11 +77,11 @@ nav {
 }
 
 .row {
-    padding-top: 50px;
+    padding-top: 20%;
 }
 
 .card {
-
+    border: 20%;
     padding: 2%;
     margin: 2%;
     color: white;
@@ -90,10 +89,7 @@ nav {
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     height: 100%;
-
 }
-
-
 .s_box:hover {
     /*box-shadow: 8px 0px 0 rgb(135, 52, 52);*/
     z-index: 10;
@@ -112,7 +108,6 @@ nav {
 
 .tr_pic {
     height: 400px;
-
 }
 
 .tr_text {
@@ -137,7 +132,7 @@ nav {
 }
 
 .resize:hover {
-    position: initial;
+    position: center;
     transition: transform 0.30s ease;
     transform: scale(1.5);
 }
@@ -146,6 +141,7 @@ nav {
     z-index: 0;
     width: 500px;
     margin-bottom: 30px;
+    padding: 5%;
 }
 
 /* IDs */
@@ -156,8 +152,7 @@ nav {
     font-size: 20px;
     text-align: center;
 }
-
-#about_me {
+#about_me{
     display: inline-block;
     width: 70%;
 }
