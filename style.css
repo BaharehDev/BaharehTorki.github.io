@@ -77,7 +77,7 @@ nav{
 }
 
 .row {
-    padding-top: 20%;
+    padding-top: 50px;
 }
 
 .card {
@@ -134,14 +134,13 @@ nav{
 .resize:hover {
     position: center;
     transition: transform 0.30s ease;
-    transform: scale(1.5);
+    transform: scale(1.6);
 }
 
 .imgBack {
     z-index: 0;
     width: 500px;
     margin-bottom: 30px;
-    padding: 5%;
 }
 
 /* IDs */
